@@ -1,0 +1,114 @@
+/* General page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Navbar */
+nav {
+  background-color: #1e3a8a;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+nav button {
+  background-color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #ddd;
+}
+
+/* Page container */
+.container {
+  padding: 25px;
+}
+
+/* Headings */
+h2 {
+  color: #1e3a8a;
+}
+
+/* Form styling */
+form {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #162d6d;
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* API button */
+.api-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.api-btn:hover {
+  background-color: darkgreen;
+}
+
+/* 404 page */
+.notfound {
+  text-align: center;
+  padding: 40px;
+}
+
+.notfound h2 {
+  color: red;
+}
